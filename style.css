@@ -1,10 +1,10 @@
 :root {
-    --clr-P: #282A36;
-    --clr-Q: #44475A;
-    --clr-R: #6272A4;
-    --clr-S: #BD93F9;
-    --clr-T: #F8F8F2;
-    --clr-U: #FF5555;
+  --clr-P: #1d1c2b;
+  --clr-Q: #44475A;
+  --clr-R: #6272A4;
+  --clr-S: #BD93F9;
+  --clr-T: #F8F8F2;
+  --clr-U: #FF5555;
 }
 
 * {
@@ -13,9 +13,70 @@
 }
 
 body {
-  background-color: var(--clr-Q);
+  background-color: var(--clr-P);
   font-size: 15pt;
   display: flex;
-  display: center;
+  align-items: center;
+  justify-content: center;
 }
 
+ul {
+  list-style-type: none;
+}
+
+.foto {
+  width: 15rem;
+  height: 20rem;
+  border: 4px solid;
+  border-radius: 5px;
+}
+
+.law {
+  border-color: #2e46ca;
+  box-shadow: 0px 0px 25px #2e46ca;
+}
+
+.zoro {
+  border-color: #ee4343;
+  box-shadow: 0px 0px 25px #ee4343;
+}
+
+.tablero-redes {
+  margin: 0px 100px;
+  padding: 1rem 1rem 1.5rem 1rem;
+  border-radius: 5px;
+  border: solid 4px #a86aff;
+  box-shadow: 0px 0px 25px #a86aff;
+  background: url(gengar.jpeg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.barra-busqueda {
+  margin: 15px 20px 25px 20px;
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+  background-color: #1d1c2bd0;
+  border-radius: 20px;
+  border: solid 4px #a86aff;
+}
+
+.redes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.link {
+  margin: 4px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #4f5375;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
