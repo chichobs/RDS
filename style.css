@@ -64,6 +64,17 @@ ul {
   border: solid 4px #a86aff;
 }
 
+.barra-busqueda:focus {
+  margin: 15px 20px 25px 20px;
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+  background-color: #1d1c2bd0;
+  border-radius: 20px;
+  border: solid 4px #a86aff;
+  outline: none;
+}
+
 .redes {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
