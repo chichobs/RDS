@@ -31,9 +31,9 @@ ul {
   border-radius: 5px;
 }
 
-.law {
-  border-color: #2e46ca;
-  box-shadow: 0px 0px 25px #2e46ca;
+.aries {
+  border-color: #2e5fca;
+  box-shadow: 0px 0px 25px #2e5fca;
 }
 
 .zoro {
@@ -55,7 +55,7 @@ ul {
 }
 
 .highlight {
-  color: lightgray;
+  color: var(--clr-U);
 }
 
 .barra-busqueda {
@@ -90,7 +90,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #8854d1;
+  color: #a57cf1;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
