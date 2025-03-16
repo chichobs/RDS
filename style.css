@@ -5,6 +5,11 @@
   --clr-S: #BD93F9;
   --clr-T: #F8F8F2;
   --clr-U: #FF5555;
+  --clr-V: linear-gradient(
+    to right,
+    #a86aff 0%
+    #ee4343 100%,
+  );
 }
 
 * {
@@ -31,51 +36,74 @@ ul {
   border-radius: 5px;
 }
 
-.aries {
-  border-color: #2e5fca;
-  box-shadow: 0px 0px 25px #2e5fca;
+.gengar {
+  border: solid 4px #a86aff;
+  box-shadow: 0px 0px 25px #a86aff;
 }
 
 .zoro {
   border-color: #ee4343;
   box-shadow: 0px 0px 25px #ee4343;
 }
+.tablero-red {
+  margin: 0px 70px;
+  padding: 0.3rem;
+  border-radius: 5px;
+  background: linear-gradient(to right, #a86aff, #ee4343);
+  box-shadow: 0px 10px 30px black;
+}
 
 .tablero-redes {
-  margin: 0px 100px;
   padding: 1rem 1rem 1.5rem 1rem;
   border-radius: 5px;
-  border: solid 4px #a86aff;
-  box-shadow: 0px 0px 25px #a86aff;
-  background: url(gengar.jpeg);
+  background: var(--clr-P);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
+ul {
+  display: center;
+}
+
 .highlight {
-  color: var(--clr-U);
+  color: var(--clr-Q);
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 18.7px;
+}
+
+.barra {
+  margin: 10px 0px 20px 0px;
+  width: 210px;
+  height: 40px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #a86aff, #ee4343);
 }
 
 .barra-busqueda {
-  margin: 15px 20px 25px 20px;
+  margin: 5px 0px 0px 5px;
   width: 200px;
   height: 30px;
+  border: 0;
   padding-left: 10px;
-  background-color: #1d1c2bd0;
-  border-radius: 20px;
-  border: solid 4px #a86aff;
+  background-color: var(--clr-P);
+  border-radius: 5px;
+  color: #F8F8F2;
+  font-weight: bold;
 }
 
 .barra-busqueda:focus {
-  margin: 15px 20px 25px 20px;
+  margin: 5px 0px 0px 5px;
   width: 200px;
   height: 30px;
+  border: 0;
   padding-left: 10px;
-  background-color: #1d1c2bd0;
-  border-radius: 20px;
-  border: solid 4px #a86aff;
+  background-color: var(--clr-P);
+  border-radius: 5px;
   outline: none;
 }
 
@@ -90,8 +118,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #a57cf1;
-  font-weight: bold;
+  color: #f8f8f2de;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
