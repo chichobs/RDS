@@ -119,9 +119,15 @@ ul {
   margin: 4px 20px;
 }
 
-h3, a {
+a {
   text-decoration: none;
   color: #f8f8f2de;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+h3 {
+  text-decoration: none;
+  color: var(--clr-S);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
