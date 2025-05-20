@@ -23,6 +23,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 5rem;
 }
 
 ul {
@@ -30,8 +31,8 @@ ul {
 }
 
 .foto {
-  width: 15rem;
-  height: 20rem;
+  width: 20rem;
+  height: 30rem;
   border: 4px solid;
   border-radius: 5px;
 }
@@ -65,6 +66,8 @@ ul {
 
 ul {
   display: center;
+  margin: 1rem 0.5rem 0rem;
+  font-size: 1rem;
 }
 
 .highlight {
@@ -109,14 +112,21 @@ ul {
 
 .redes {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 2fr);
 }
 
 .link {
   margin: 4px 20px;
 }
 
-a {
+h3, a {
+  text-decoration: none;
+  color: #f8f8f2de;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#reloj {
   text-decoration: none;
   color: #f8f8f2de;
   font-family: Arial, Helvetica, sans-serif;
